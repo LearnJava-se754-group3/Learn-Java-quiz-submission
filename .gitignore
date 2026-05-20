@@ -1,0 +1,10 @@
+# Maven build output
+/target/
+
+# Compiled class files
+*.class
+
+# IDE/system noise
+.DS_Store
+.idea/
+*.iml
