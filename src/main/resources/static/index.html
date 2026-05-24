@@ -44,6 +44,12 @@
             gap: 10px;
             flex-wrap: wrap;
         }
+        .nav-link-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 14px;
+        }
         button {
             border: none;
             border-radius: 8px;
@@ -63,6 +69,21 @@
             color: #111827;
         }
         .btn-secondary:hover { background: #d1d5db; }
+        .btn-link {
+            display: inline-block;
+            border-radius: 8px;
+            padding: 10px 14px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: transform 0.12s ease, opacity 0.2s ease;
+            background: #ecfdf3;
+            color: #166534;
+            border: 1px solid #86efac;
+        }
+        .btn-link:hover {
+            transform: translateY(-1px);
+            background: #dcfce7;
+        }
         .btn-back {
             background: transparent;
             color: #374151;
@@ -136,6 +157,12 @@
     </div>
 
     <div id="lessonPicker" class="card">
+        <h2>Lesson Modules</h2>
+        <div class="nav-link-buttons">
+            <a class="btn-link" href="/lesson1.html">Lesson 1</a>
+            <a class="btn-link" href="/lesson2.html">Lesson 2</a>
+            <a class="btn-link" href="/lesson3.html">Lesson 3</a>
+        </div>
         <h2>Select a Quiz</h2>
         <div class="lesson-buttons">
             <button class="btn-primary lesson-btn" data-lesson-id="1">Quiz 1</button>
