@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 2 - Inheritance</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f9fb;
+            color: #1f2937;
+        }
+        .container {
+            max-width: 860px;
+            margin: 24px auto;
+            padding: 0 16px;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 10px;
+            padding: 18px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            margin-bottom: 14px;
+        }
+        h1, h2 { margin-top: 0; }
+        .tag {
+            color: #166534;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        ul { line-height: 1.6; }
+        code {
+            background: #f3f4f6;
+            padding: 1px 5px;
+            border-radius: 4px;
+        }
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            background: #2ecc71;
+            color: #0f172a;
+            font-weight: 600;
+            border-radius: 8px;
+            padding: 10px 14px;
+            margin-right: 8px;
+        }
+        .btn.alt {
+            background: #e5e7eb;
+            color: #111827;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <h1>Lesson 2: Inheritance</h1>
+        <p class="tag">Concept: OOP - Inheritance</p>
+        <p>
+            Inheritance lets a child class reuse fields and methods from a parent class.
+            In Java, a class inherits with the <code>extends</code> keyword.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>What to remember</h2>
+        <ul>
+            <li>All classes ultimately inherit from <code>Object</code>.</li>
+            <li>Use <code>super()</code> to call a parent constructor.</li>
+            <li>Method overriding redefines parent behavior in a subclass.</li>
+            <li>Override methods with the same signature for polymorphism.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <a class="btn" href="/">Back to Home</a>
+    </div>
+</div>
+</body>
+</html>
